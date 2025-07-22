@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be320ec1698795d45aac423427683f9d, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  items:
+  - id: 1
+    itemName: GoldCoin
+    icon: {fileID: -721883572, guid: 2f8c6e0a8d0b2ee4593ac9c371c67d3c, type: 3}
+    value: 1
+    description: Mightysdkljklgfasjdklgjklsajdkgjklasjdklgjklasjdklgjklasjdklgjklasjdklgjlaksjdjgas
+    type: 0
+    slot: 0
+    bonusHealth: 0
+    bonusDamage: 0
+    bonusArmor: 0
+    moveSpeed: 0
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 1
+    maxStackSize: 999
+  - id: 2
+    itemName: Sword
+    icon: {fileID: 2101156682, guid: 2f8c6e0a8d0b2ee4593ac9c371c67d3c, type: 3}
+    value: 10
+    description: Mighty
+    type: 1
+    slot: 3
+    bonusHealth: 0
+    bonusDamage: 10
+    bonusArmor: 0
+    moveSpeed: 0
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 0
+    maxStackSize: 1
+  - id: 3
+    itemName: CoinsChest
+    icon: {fileID: -194822180, guid: 2f8c6e0a8d0b2ee4593ac9c371c67d3c, type: 3}
+    value: 100
+    description: Mighty
+    type: 0
+    slot: 3
+    bonusHealth: 0
+    bonusDamage: 0
+    bonusArmor: 0
+    moveSpeed: 0
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 0
+    maxStackSize: 1
+  - id: 4
+    itemName: LighGem
+    icon: {fileID: -832276449, guid: b009a0a7aad09b549942100b01bd262a, type: 3}
+    value: 10
+    description: Gem dropped by light type monsters
+    type: 0
+    slot: 3
+    bonusHealth: 0
+    bonusDamage: 0
+    bonusArmor: 0
+    moveSpeed: 0
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 1
+    maxStackSize: 99
+  - id: 5
+    itemName: DarkGem
+    icon: {fileID: -1596119271, guid: b009a0a7aad09b549942100b01bd262a, type: 3}
+    value: 10
+    description: Gem dropped by Dark type monsters
+    type: 0
+    slot: 3
+    bonusHealth: 0
+    bonusDamage: 0
+    bonusArmor: 0
+    moveSpeed: 0
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 1
+    maxStackSize: 99
+  - id: 6
+    itemName: GoldenCHestplate
+    icon: {fileID: -492308953, guid: 821fc698496d72746a83592205fed91c, type: 3}
+    value: 10
+    description: Gem dropped by Dark type monsters
+    type: 1
+    slot: 1
+    bonusHealth: 0
+    bonusDamage: 0
+    bonusArmor: 0
+    moveSpeed: 0
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 0
+    maxStackSize: 99
+  - id: 7
+    itemName: Boots
+    icon: {fileID: -42588952, guid: 88ee46ac5fed17f4fbdffe097834bcdb, type: 3}
+    value: 10
+    description: Gem dropped by Dark type monsters
+    type: 1
+    slot: 2
+    bonusHealth: 0
+    bonusDamage: 0
+    bonusArmor: 10
+    moveSpeed: 2
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 0
+    maxStackSize: 99
+  - id: 8
+    itemName: Golden Helmet
+    icon: {fileID: -735201632, guid: 210e4f853e644ce48954377c83290926, type: 3}
+    value: 10
+    description: Gem dropped by Dark type monsters
+    type: 1
+    slot: 0
+    bonusHealth: 0
+    bonusDamage: 0
+    bonusArmor: 10
+    moveSpeed: 0
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 0
+    maxStackSize: 99
+  - id: 9
+    itemName: dagger
+    icon: {fileID: 568261655, guid: 011178ecbe975b0469b217bd873071a3, type: 3}
+    value: 10
+    description: Gem dropped by Dark type monsters
+    type: 1
+    slot: 4
+    bonusHealth: 0
+    bonusDamage: 20
+    bonusArmor: 0
+    moveSpeed: 0
+    attackRange: 0
+    attackCooldownReduction: 0
+    stackable: 0
+    maxStackSize: 99
